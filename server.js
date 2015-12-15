@@ -69,6 +69,6 @@ app.use('/api/v1', router);
 // START THE SERVER
 // =============================================================================
 
-var port = process.env.PORT || 7272;        // set our port
+var port = process.env.PORT || 9292;        // set our port
 app.listen(port);
 console.log('Go to port ' + port);
